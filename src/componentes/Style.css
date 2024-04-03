@@ -1,0 +1,35 @@
+.Corbotao{
+    color: rgb(255, 255, 255);
+    background-color:  #d1af82;
+    
+}
+.tamanho-do-card{
+    width: '200px'; 
+    height: '300px'; 
+}
+.margin-botao{
+    width: '90%';
+     max-Width: '24rem'; 
+    }
+.cor-navbar{
+    background-color: #d1af82
+    !important;
+    color: aliceblue !important;
+}
+.Cor-tela-cadastro{
+    background-color: #ede0ce;
+    max-width: 800px; /* Largura máxima do conteúdo */
+    width: 100%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px; /* Margem na borda */
+  }
+.Padrao-formulario{
+    background-color: #d3c7b2;
+    max-width: 500px; /* Largura máxima do conteúdo */
+    width: 100%;
+    text-align: center;
+}
