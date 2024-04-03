@@ -17,15 +17,17 @@
     color: aliceblue !important;
 }
 .Cor-tela-cadastro{
-    background-color: #ede0ce;
+    background-color: ;
     max-width: 800px; /* Largura máxima do conteúdo */
     width: 100%;
     text-align: center;
+    margin: auto;
 }
 .container {
     display: flex;
     justify-content: center;
     margin: 20px; /* Margem na borda */
+    text-align: center
   }
 .Padrao-formulario{
     background-color: #d3c7b2;

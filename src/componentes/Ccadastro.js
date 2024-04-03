@@ -12,7 +12,7 @@ export default function Ccadastro (){
                         Cadastre-se no ReciPet ou <Link>faça login</Link>
                     </p>
                     
-                    
+                    <h2>Cadrastro Usuário</h2>
                     
                 </div>
                 <div> 

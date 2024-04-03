@@ -1,58 +1,34 @@
-.formulario-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Defina a altura do container para preencher toda a altura da viewport */
-  }
-  
-  .formulario {
-    max-width: 400px; /* Defina a largura máxima do formulário */
-    width: 100%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-  
-  .formulario div {
-    margin-bottom: 10px;
-  }
-  
-  .formulario label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .formulario input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .formulario button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .formulario button[type="button"] {
-    background-color: #ccc;
-    margin-right: 10px;
-  }
-  .form-group {
-    margin-bottom: 20px; /* Adiciona um espaçamento entre os grupos de formulário */
-  }
-  
-  .form-group label {
-    display: block; /* Faz com que os rótulos sejam exibidos em blocos (um embaixo do outro) */
-    margin-bottom: 5px; /* Adiciona um pequeno espaçamento entre os rótulos e os campos de entrada */
-  }
-  
-  /* Outras regras de estilo para os campos de entrada podem ser adicionadas aqui */
+.container {
+  width: 800px; /* Largura do formulário */
+  margin: 0 auto; /* Centralizar o formulário horizontalmente */
+  background-color: #bd8427 !important;  /* Cor de fundo marrom claro */
+  padding: 110px; /* Espaçamento interno */
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+h2 {
+  text-align: center; /* Centralizar o título */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 800;
+  ;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5; /* Reduz a opacidade do botão desabilitado */
+  cursor: not-allowed;
+}
+
   
   
