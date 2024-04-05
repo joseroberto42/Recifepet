@@ -8,6 +8,7 @@ import NavScroll from '../../NavScrollExampl'
 import CarrosselMCard from '../../CarroselMCards'
 import Caarrosel from'../../Carrosel'
 import './home.css'
+import Footeer from '../../Footeer'
 export default function Home() {
   return (
     
@@ -20,11 +21,19 @@ export default function Home() {
         <br/>
         <h3 className="texto-centralizado" style={{textAlign: 'center'}}>Animais mais próximos</h3>
         <CarroselCard/>
+        <br/>
+        <CarroselCard/>
+        <br/>
+        <CarroselCard/>
+        <br/>
+        <CarroselCard/>
+        
+        <br/>
         {/* <CarrosselMCard/> */}
         
         <br/>
         
-
+        <Footeer/>
 
 
 
